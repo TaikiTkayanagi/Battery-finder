@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="CameraObject.js"></script>
+  <script type="text/javascript" src="BatteryObject.js"></script>
+  <script type="text/javascript" src="battery-finder.js"></script>
+</head>
+
+<body>
+  <div class="target d-flex justify-content-center">
+    <div class="conts">
+      <div class="siteTtl d-flex justify-content-center" style="background-color: blue;">
+        <h3>Battery Finder Program</h3>
+      </div>
+      <div class="mainBlock d-flex align-items-end justify-content-center" style="background-color: lightblue;">
+        <div class="main">
+          <div class="step step1">
+            <p>Step1:Select your brand</p>
+            <select id="brand">
+            </select>
+          </div>
+          <div class="step step2">
+            <p>step2:Select your Model</p>
+            <select id="model">
+            </select>
+          </div>
+          <div class="step step3">
+            <p>step3:Input Accessory Power Consumption</p>
+            <input type="text" class="textBox" id="powerConsumption">
+          </div>
+          <div class="step4">
+            <p>step4:Chose Your Battery</p>
+            <div class="tableBlock">
+              <table class="table table-striped table-dark">
+                <tbody id="tbody">
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

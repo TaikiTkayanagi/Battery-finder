@@ -1,0 +1,57 @@
+body{
+  height: 100vh;
+  width: 100%;
+}
+
+.target{
+  height: 100vh;
+  width: 100%;
+}
+
+.conts{
+  height: 100vh;
+  width: 50%;
+}
+
+.siteTtl{
+  height:10%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mainBlock{
+  height: 90%;
+  width: 100%;
+}
+
+.main{
+  height: 95%;
+  width: 90%;
+}
+
+.step{
+  height: 20%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.step4{
+  height: 40%;
+  width: 100%;
+}
+
+select{
+  height: 30%;
+  width: 40%;
+}
+
+.textBox{
+  height: 30%;
+  width: 20%;
+}
+
+.tableBlock{
+  height: 70%;
+  width: 100%;
+  overflow: auto;
+}
